@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@nuxtjs/vuetify": "^1.12.3",
-        "@typeform/embed-react": "^2.19.0",
+        "@typeform/embed": "^5.1.0",
         "core-js": "^3.25.3",
         "nuxt": "^2.15.8",
         "pug": "^3.0.2",
@@ -24,6 +24,7 @@
         "@nuxt/types": "^2.15.8",
         "@nuxt/typescript-build": "^2.1.0",
         "@nuxtjs/tailwindcss": "^6.12.1",
+        "@types/typeform__embed": "^1.0.0",
         "@vue/test-utils": "^1.3.0",
         "babel-core": "7.0.0-bridge.0",
         "babel-jest": "^29.1.2",
