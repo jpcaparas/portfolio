@@ -14,7 +14,8 @@ export default {
             { hid: 'description', name: 'description', content: 'My professional portfolio showcasing software engineering, management, architecture, security, and consulting skills.' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap' }
         ]
     },
 
@@ -46,7 +47,17 @@ export default {
     // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
     vuetify: {
         customVariables: ['~/assets/variables.scss'],
-        treeShake: true
+        treeShake: true,
+        theme: {
+            light: true,
+            themes: {
+                light: {
+                    primary: '#3490dc',
+                    secondary: '#ffed4a',
+                    accent: '#f6993f',
+                }
+            }
+        }
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build

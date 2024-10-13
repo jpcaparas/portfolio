@@ -1,16 +1,16 @@
 <template>
-    <v-card class="mb-4">
-      <v-card-title>About Me</v-card-title>
-      <v-card-text>
-        <p>I am a skilled software engineer with expertise in engineering management, software architecture & design, security, and consulting.</p>
-      </v-card-text>
-    </v-card>
-  </template>
-  
-  <script lang="ts">
-  import Vue from 'vue'
-  
-  export default Vue.extend({
-    name: 'AboutMe'
-  })
-  </script>
+  <div class="about-me mb-8">
+    <h1 class="text-h2 font-weight-bold mb-4">Your Name</h1>
+    <p class="text-body-1">
+      I am a skilled software engineer with expertise in engineering management, software architecture & design, security, and consulting.
+    </p>
+  </div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue'
+
+export default Vue.extend({
+  name: 'AboutMe'
+})
+</script>
