@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Dev",
+            "type": "shell",
+            "command": "npm run dev",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "npm run build",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Start",
+            "type": "shell",
+            "command": "npm run start",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate",
+            "type": "shell",
+            "command": "npm run generate",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Test",
+            "type": "shell",
+            "command": "npm run test",
+            "group": "test",
+            "problemMatcher": []
+        }
+    ]
+}
